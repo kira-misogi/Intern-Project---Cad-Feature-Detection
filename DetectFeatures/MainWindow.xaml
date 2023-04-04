@@ -1,0 +1,73 @@
+﻿<Window 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DetectFeatures"
+        xmlns:ddes="http://schemas.devdept.com/winfx/2008/xaml/control" xmlns:ddgr="http://schemas.devdept.com/winfx/2008/xaml/graphics" x:Class="DetectFeatures.MainWindow"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        Title="Features_Model" Height="551" Width="900">
+    <Window.Resources>
+        <Style TargetType="{x:Type ToggleButton}" BasedOn="{StaticResource {x:Type ToggleButton}}">
+            <Setter Property="Width" Value="80"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <DockPanel LastChildFill="True" Margin="5">
+            <StackPanel Orientation="Vertical">
+                <StackPanel Width="200">
+                    <Button Height="30" Width="120" Margin="-5,8,0,5" Content="Import Step" x:Name="ImporttBtn" FontSize="20" Click="ImporttBtn_Click" />
+                    <Button Height="30" Width="120" Margin="-5,5,0,5" Content="Fillets" x:Name="GetFillets" FontSize="22" Click="GetFillets_Click" />
+                    <Button Height="30" Width="120" Margin="-5,5,0,5" Content="Chamfers" x:Name="GetChamfers" FontSize="22" Click="GetChamfers_Click" />
+                    <Button Height="30" Width="120" Margin="-5,5,0,5" Content="Holes" x:Name="GetHoles" FontSize="22" Click="GetHoles_Click" />
+                    <Button Height="30" Width="120" Margin="-5,5,0,5" Content="Pockets" x:Name="GetPockets" FontSize="22" Click="GetPockets_Click" />
+                    <Button Height="30" Width="120" Margin="-5,5,0,5" Content="Boss" x:Name="GetBoss" FontSize="22" Click="GetBoss_Click" />
+                    <Button Height="30" Width="120" Margin="-5,5,0,5" Content="Slots" x:Name="GetSlots" FontSize="22" Click="GetSlots_Click" />
+                    <Button Height="30" Width="120" Margin="-5,5,0,5" Content="Steps" x:Name="GetSteps" FontSize="22" Click="GetSteps_Click" />
+
+                </StackPanel>
+            </StackPanel>
+
+
+            <ddes:Model x:Name="ViewModel" Height="Auto" VerticalAlignment="Top" Width="Auto">
+                <ddes:Model.Viewports>
+                    <ddes:Viewport>
+                        <ddes:Viewport.Background>
+                            <ddgr:BackgroundSettings BottomColor="DeepSkyBlue" StyleMode="Solid" TopColor="WhiteSmoke"/>
+                        </ddes:Viewport.Background>
+                        <ddes:Viewport.CoordinateSystemIcon>
+                            <ddes:CoordinateSystemIcon/>
+                        </ddes:Viewport.CoordinateSystemIcon>
+                        <ddes:Viewport.Grids>
+                            <ddes:Grid Step="10"/>
+                        </ddes:Viewport.Grids>
+                        <ddes:Viewport.OriginSymbol>
+                            <ddes:OriginSymbol/>
+                        </ddes:Viewport.OriginSymbol>
+                        <ddes:Viewport.ToolBars>
+                            <ddes:ToolBar Position="HorizontalTopCenter">
+                                <ddes:ToolBar.Buttons>
+                                    <ddes:HomeToolBarButton/>
+                                    <ddes:MagnifyingGlassToolBarButton/>
+                                    <ddes:ZoomWindowToolBarButton/>
+                                    <ddes:ZoomToolBarButton/>
+                                    <ddes:PanToolBarButton/>
+                                    <ddes:RotateToolBarButton/>
+                                    <ddes:ZoomFitToolBarButton/>
+                                </ddes:ToolBar.Buttons>
+                            </ddes:ToolBar>
+                        </ddes:Viewport.ToolBars>
+                        <ddes:Viewport.ViewCubeIcon>
+                            <ddes:ViewCubeIcon/>
+                        </ddes:Viewport.ViewCubeIcon>
+                    </ddes:Viewport>
+                </ddes:Model.Viewports>
+            </ddes:Model>
+            <GroupBox Header="GroupBox" Height="409" VerticalAlignment="Top" Width="100"/>
+
+        </DockPanel>
+    </Grid>
+</Window>
+

@@ -1,0 +1,40 @@
+D:\Programming\worK\Tool Path\Toolpath\bin\Debug\Toolpath.exe.config
+D:\Programming\worK\Tool Path\Toolpath\bin\Debug\Toolpath.exe
+D:\Programming\worK\Tool Path\Toolpath\bin\Debug\Toolpath.pdb
+D:\Programming\worK\Tool Path\Toolpath\bin\Debug\devdept.eyeshot.control.wpf.v12.xml
+D:\Programming\worK\Tool Path\Toolpath\bin\Debug\devDept.Geometry.v12.xml
+D:\Programming\worK\Tool Path\Toolpath\bin\Debug\devDept.Graphics.Wpf.v12.xml
+D:\Programming\worK\Tool Path\Toolpath\obj\Debug\Toolpath.csproj.AssemblyReference.cache
+D:\Programming\worK\Tool Path\Toolpath\obj\Debug\Toolpath.csproj.SuggestedBindingRedirects.cache
+D:\Programming\worK\Tool Path\Toolpath\obj\Debug\MainWindow.g.cs
+D:\Programming\worK\Tool Path\Toolpath\obj\Debug\App.g.cs
+D:\Programming\worK\Tool Path\Toolpath\obj\Debug\Toolpath_MarkupCompile.cache
+D:\Programming\worK\Tool Path\Toolpath\obj\Debug\Toolpath_MarkupCompile.lref
+D:\Programming\worK\Tool Path\Toolpath\obj\Debug\MainWindow.baml
+D:\Programming\worK\Tool Path\Toolpath\obj\Debug\Toolpath.g.resources
+D:\Programming\worK\Tool Path\Toolpath\obj\Debug\Toolpath.Properties.Resources.resources
+D:\Programming\worK\Tool Path\Toolpath\obj\Debug\Toolpath.csproj.GenerateResource.cache
+D:\Programming\worK\Tool Path\Toolpath\obj\Debug\Toolpath.csproj.CoreCompileInputs.cache
+D:\Programming\worK\Tool Path\Toolpath\obj\Debug\Toolpath.csproj.CopyComplete
+D:\Programming\worK\Tool Path\Toolpath\obj\Debug\Toolpath.exe
+D:\Programming\worK\Tool Path\Toolpath\obj\Debug\Toolpath.pdb
+D:\Programming\worK\Toolpath\bin\Debug\devdept.eyeshot.control.wpf.v12.xml
+D:\Programming\worK\Toolpath\bin\Debug\devDept.Geometry.v12.xml
+D:\Programming\worK\Toolpath\bin\Debug\devDept.Graphics.Wpf.v12.xml
+D:\Programming\worK\Toolpath\obj\Debug\Toolpath.csproj.AssemblyReference.cache
+D:\Programming\worK\Toolpath\obj\Debug\Toolpath.csproj.SuggestedBindingRedirects.cache
+D:\Programming\worK\Toolpath\obj\Debug\MainWindow.g.cs
+D:\Programming\worK\Toolpath\obj\Debug\App.g.cs
+D:\Programming\worK\Toolpath\obj\Debug\MainWindow.baml
+D:\Programming\worK\Toolpath\obj\Debug\Toolpath.csproj.GenerateResource.cache
+D:\Programming\worK\Toolpath\obj\Debug\Toolpath.csproj.CoreCompileInputs.cache
+D:\Programming\worK\Toolpath\obj\Debug\Toolpath.csproj.CopyComplete
+D:\Programming\worK\Toolpath\bin\Debug\Features.exe.config
+D:\Programming\worK\Toolpath\bin\Debug\Features.exe
+D:\Programming\worK\Toolpath\bin\Debug\Features.pdb
+D:\Programming\worK\Toolpath\obj\Debug\Features_MarkupCompile.cache
+D:\Programming\worK\Toolpath\obj\Debug\Features_MarkupCompile.lref
+D:\Programming\worK\Toolpath\obj\Debug\Features.g.resources
+D:\Programming\worK\Toolpath\obj\Debug\DetectFeatures.Properties.Resources.resources
+D:\Programming\worK\Toolpath\obj\Debug\Features.exe
+D:\Programming\worK\Toolpath\obj\Debug\Features.pdb
